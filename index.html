@@ -170,7 +170,7 @@
         <div id="Contact" class="Contact">
             <h3>Contact</h3>
             <div class="contact-2">
-                <form action="">
+                <form action="traitement.php" method="post">
                     <div class="part1">
                         <div class="part2">
                             <label for="fname">Prénom :</label>
@@ -183,10 +183,10 @@
                     </div>
 
                     <label for="mail">E-mail :</label>
-                    <input type="mail" name="mail" id="mail" required>
+                    <input type="email" name="mail" id="mail" required>
                     <label for="textarea">Rédigez votre message ici...</label>
-                    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
-                    <button><a href="">Envoyer</a></button>
+                    <textarea type="textarea" name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    <button type="submit">Envoyer</button>
                 </form>
                 <div class="contact-me">
                     <div class="contents-me">
