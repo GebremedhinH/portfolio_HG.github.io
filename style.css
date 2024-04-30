@@ -90,7 +90,7 @@ ul li a:hover {
 .container {
     display: flex;
     justify-content: center;
-    margin-left: 320px;
+    margin-left: 16%;
 }
 
 .container-center {
