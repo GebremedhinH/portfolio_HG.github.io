@@ -166,6 +166,7 @@ ul li a:hover {
     top: -9px;
     width: 80%;
     height: 10%;
+    align-items: center;
 }
 
 .banner-icone i {
